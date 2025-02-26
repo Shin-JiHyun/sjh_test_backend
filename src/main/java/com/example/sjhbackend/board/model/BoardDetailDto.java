@@ -36,7 +36,7 @@ public class BoardDetailDto {
         }
     }
 
-    @Builder
+    @Builder @Getter
     public static class CommentDto {
         @Schema(description = "댓글 작성자", example = "이순신")
         private String writer;
